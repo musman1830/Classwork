@@ -1,19 +1,24 @@
 
 public class Circle implements Shape 
 {
-	private double rad;
+	private double radius;
 	private double pi = 3.14;
-	public Circle (double rad)
+	public Circle (double radius)
 	{
-		this.radius = rad;
+		this.radius = radius;
 	}
 
-	public double Circumference()
+	public double perimeter()
 	{
-		return 2*pi*rad;
+		return 2*pi*radius;
 	}
-	public double Area()
+	public double area()
+	{
+	return pi *radius* radius;	
+	}
+	public String toString() 
 	{
 		
+		return "Circle radius:" + radius +"Area:" + this.area() + "Perimeter:" + this.perimeter();
 	}
 }
