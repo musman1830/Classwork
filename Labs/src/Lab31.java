@@ -1,5 +1,5 @@
 
-public class ArrayMethods {
+public class Lab31 {
 	public static void main(String[] args)
 	{
 		int[] test = {0,4,5,6,3,4,9};
@@ -18,6 +18,12 @@ public class ArrayMethods {
 		{
 			System.out.println(x);
 		}
+		System.out.println("-----------------------------");
+		
+		int[] testp = {2,3,4};
+		int[] testp2 = {1,2,3};
+		int[][] productTest = productArray(testp,testp2);
+		System.out.println(productTest[1][2]);
 	}
 	
 	
@@ -55,18 +61,21 @@ public class ArrayMethods {
 		}
 		return newArray;
 	}
-	public static int[] productArray(ing [] arr1, int[] arr2)
+	public static int[][] productArray(int [] arr1, int[] arr2)
 	{
-		public int[][] table;
-		
+		int[][] table;
 		table = new int[arr1.length][arr2.length];
-		for(int x: arr1)
+		//System.out.println(arr1[0] + " " + arr2[0]);
+		for(int i=0; i<arr1.length; i++)
 		{
-			for (int y: arr2)
+			//System.out.println(arr1[i]);
+			for (int j=0; j<arr2.length; j++)
 			{
-				
+				//System.out.println(arr2[j]);
+				table[i][j] = (arr1[i])*(arr2[j]);
 			}
 		}
+		return table;
 	}
+	
 }
-
