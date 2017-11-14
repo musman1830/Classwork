@@ -24,6 +24,10 @@ public class Lab31 {
 		int[] testp2 = {1,2,3};
 		int[][] productTest = productArray(testp,testp2);
 		System.out.println(productTest[1][2]);
+		System.out.println("-----------------------------");
+		int[][] testTriangle = pascalTriangle(8);
+		printPascalTriangle(testTriangle);
+		
 	}
 	
 	
@@ -77,5 +81,43 @@ public class Lab31 {
 		}
 		return table;
 	}
+	public static int [][] pascalTriangle(int n)
+	{
+		int[][] result = new int[n][];
+		for(int x= 0; x<n; x++)
+		{
+			result[x]= new int[x+1];
+			for(int y=0; y<= x; y++)
+			{
+				if (y==0||y==x)
+					result[x][y]=1;
+				
+				else
+					result[x][y]=result[x-1][y-1]+result[x-1][y];
+			}
+		}
+		return result;
+	}
 	
+	public static void printPascalTriangle(int[][] pTriangle)
+	{
+		int rowSpace = pTriangle.length;
+		
+		for (int x=0; x<pTriangle.length; x++)
+		{
+			for (int i=0; i<rowSpace; i++)
+			{
+				System.out.print(" ");
+			}
+			
+			for (int y=0; y<pTriangle[x].length; y++)
+			{
+				System.out.print( pTriangle[x][y]+" ");
+				
+			}
+			rowSpace--;
+			System.out.println("");
+			
+		}
+	}
 }
