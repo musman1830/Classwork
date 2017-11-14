@@ -1,3 +1,6 @@
+//Muhammad Usman and Jefferson Bernard Pd 6-7
+// 11/14/17 finished lab 3.1
+
 
 public class Lab31 {
 	public static void main(String[] args)
@@ -102,9 +105,11 @@ public class Lab31 {
 	public static void printPascalTriangle(int[][] pTriangle)
 	{
 		int rowSpace = pTriangle.length;
+		int amountExtraSpaces = 0;
 		
 		for (int x=0; x<pTriangle.length; x++)
 		{
+			amountExtraSpaces++;
 			for (int i=0; i<rowSpace; i++)
 			{
 				System.out.print(" ");
@@ -112,8 +117,20 @@ public class Lab31 {
 			
 			for (int y=0; y<pTriangle[x].length; y++)
 			{
-				System.out.print( pTriangle[x][y]+" ");
-				
+				if (x<5)
+				{
+					System.out.print(pTriangle[x][y] + " ");
+				}
+				else
+				{
+					System.out.print(pTriangle[x][y] + " ");
+				}
+				/*
+				for (int j = 0; j<amountExtraSpaces; j++)
+				{
+					System.out.print(" ");
+				}
+				*/
 			}
 			rowSpace--;
 			System.out.println("");
