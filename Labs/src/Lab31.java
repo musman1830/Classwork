@@ -105,7 +105,18 @@ public class Lab31 {
 	public static void printPascalTriangle(int[][] pTriangle)
 	{
 		int rowSpace = pTriangle.length;
+		int lengthOfLastRow = 0;
+		int amountOfRows = pTriangle.length;
 		int amountExtraSpaces = 0;
+		if (amountOfRows>5)
+		{
+			lengthOfLastRow = 13 + (3*(amountOfRows-6));
+		}
+		else
+		{
+			
+		}
+		System.out.println(lengthOfLastRow);
 		
 		for (int x=0; x<pTriangle.length; x++)
 		{
@@ -119,12 +130,18 @@ public class Lab31 {
 			{
 				if (x<5)
 				{
-					System.out.print(pTriangle[x][y] + " ");
+					System.out.print(pTriangle[x][y] + "   ");
 				}
 				else
 				{
-					System.out.print(pTriangle[x][y] + " ");
+					if(pTriangle[x][y]> 9 && pTriangle[x][y+1]>9)
+					{
+						System.out.print(pTriangle[x][y] + "  ");
+					}
+					else
+						System.out.print(pTriangle[x][y] + "   ");
 				}
+				
 				/*
 				for (int j = 0; j<amountExtraSpaces; j++)
 				{
