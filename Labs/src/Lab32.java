@@ -3,6 +3,7 @@ public class Lab32
 {
 	public static void main( String[] args)
 	{
+		/*
 		String test1 = "ape";
 		String test2 = "apple";
 		//System.out.println(test2.compareTo(test1));
@@ -26,14 +27,17 @@ public class Lab32
 		{
 			System.out.print("["+x+"] ");
 		}
-		System.out.println("-----------------------------------");
-		String[] testMergeSort = {"gum","soft","dog","clothes","pizza","nap","starbucks"};
+		System.out.println("-----------------------------------"); */
+		String[] testMergeSort = {"gum","soft","clothes","starbucks"};
 		testMergeSort = mergeSort(testMergeSort);
-		System.out.println("-------------------------");
+		//System.out.println("-------------------------");
 		for (String x: testMergeSort)
 		{
 			System.out.print("["+x+"] ");
 		}
+		
+		int[] testPartition = {9,3,8,2,1};
+		System.out.println(partition(testPartition));
 		
 	}
 	public static String[] merge( String[] list1, String[] list2)
@@ -122,17 +126,27 @@ public class Lab32
 	
 	public static String[] mergeSort(String[] list)
 	{
+		
+		if (list.length==1)
+		{
+			return list;
+		}
+		
 		if (list.length==2)
 		{
 			String[] x = {list[0]};
 			String[] y = {list[1]};
 			list = merge(x,y);
-			
 		}
-		
 		
 		else	
 		{
+			int a = 0;
+			if (list.length%2==1)
+				a = (list.length/2)+1;
+			else
+				a = list.length/2;
+			
 			String[] x = new String[list.length/2];
 			for (int i = 0; i<list.length/2; i++)
 			{
@@ -142,7 +156,10 @@ public class Lab32
 			{
 				System.out.print("["+k+"] ");
 			}
-			String[] y = new String[list.length/2];
+			System.out.println();
+		
+			String[] y = new String[a];
+			
 			int i = 0;
 			for (int j = (list.length/2) ; j<list.length; j++)
 			{
@@ -153,10 +170,51 @@ public class Lab32
 			{
 				System.out.print("["+k+"] ");
 			}
-			
+			System.out.println();
 			list = merge(mergeSort(x), mergeSort(y)); 
 		}
 		return list;
+	}
+	
+	public static int partition(int[] list)
+	{
+		int positionPivot = 0;
+		int frontIndex = 1;
+		int backIndex = list.length-1;
+		int pivot = list[0];
+		boolean searchingBack = true;
+		boolean searchingFront = false;
+		while(backIndex>frontIndex)
+		{
+			if (pivot>list[backIndex] && searchingBack)
+			{
+				int j = 0;
+				j = positionPivot;
+				positionPivot = backIndex;
+				frontIndex= j+1;
+				searchingBack = false;
+				searchingFront = true;
+			}
+			else if (searchingBack && pivot<list[backIndex])
+			{
+				backIndex--;
+			}
+			if (pivot<list[frontIndex] && searchingFront)
+			{
+				int j = 0;
+				j = positionPivot;
+				positionPivot = frontIndex;
+				backIndex = j-1;
+				searchingBack=true;
+				searchingFront=false;
+			}
+			else if (searchingFront && pivot>list[frontIndex])
+			{
+				frontIndex++;
+			}
+			
+		}
+		return positionPivot;
 	}
 }
 
