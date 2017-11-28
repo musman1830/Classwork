@@ -1,4 +1,4 @@
-
+//Muhamamd Usman and Jefferson Bernard
 public class Lab33
 {
 	public static void main( String[] args)
