@@ -3,12 +3,14 @@ public class Lab34 {
 	
 	public static void main( String[] args)
 	{
-		int[] test1= {2,5,8,3,6,1};
-		partition(test1,0,test1.length-1);
-		for(int x: test1)
-		{
-			System.out.print("["+ x +"]");
-		}
+		int[] test1= {5,2,8,1,9,6,0};
+		//partition(test1,0,test1.length-1);
+		//for(int x: test1)
+		//{
+	//		System.out.print("["+ x +"]");
+			
+		//}
+		System.out.println(partition(test1,0,test1.length-1));
 		System.out.println();
 		int[] test2 = {1,2,3,4};
 		swapMethod(test2, 1,3);
@@ -17,7 +19,7 @@ public class Lab34 {
 			System.out.print("["+ x +"]");
 		}
 	}
-	public static void partition(int[] list1, int front, int back)
+	public static int partition(int[] list1, int front, int back)
 	{
 		int positionPivot = front;
 		int frontIndex = front+1;
@@ -27,12 +29,13 @@ public class Lab34 {
 		boolean searchingFront = false;
 		while(backIndex>frontIndex)
 		{
+			System.out.println("random");
 			if (list1[positionPivot]>list1[backIndex] && searchingBack)
 			{
 				int j = 0;
 				j = positionPivot;
 				positionPivot = backIndex;
-				backIndex=j;
+				//backIndex=j;
 				swapMethod(list1, j, positionPivot);
 				
 				frontIndex= j+1;
@@ -45,11 +48,12 @@ public class Lab34 {
 			}
 			if (list1[positionPivot]<list1[frontIndex] && searchingFront)
 			{
+
 				
 				int j = 0;
 				j = positionPivot;
 				positionPivot = frontIndex;
-				frontIndex =j;
+				//frontIndex =j;
 				swapMethod(list1, j, positionPivot);
 			
 				backIndex = j-1;
@@ -62,6 +66,7 @@ public class Lab34 {
 			}
 			
 		}
+		return positionPivot;
 	}
 	
 	public static void swapMethod (int[] list, int pivotIndex, int index)
@@ -69,5 +74,12 @@ public class Lab34 {
 		int dummy = list[index];
 		list[index] = list[pivotIndex];
 		list[pivotIndex] = dummy;
+	}
+	public void quickSort(int[] list1, int front, int back)
+	{
+		if(front==back)
+		{
+			return 
+		}
 	}
 }
