@@ -11,22 +11,53 @@ public class Deck {
 		{
 			for(int s=0;s< suit.length;s++)
 			{
-				for(int p=0;p<pointValue.length;p++)
-				{
-					unDealt.add(new Card(rank[r],suit[s],pointValue[p]));
+				
+			unDealt.add(new Card(rank[r],suit[s],pointValue[r]));
 					
-				}
+				
 			}
 		}
 		
 	}
 	public boolean isEmpty()
 	{
-		if(Deck.length>0)
-		{
-			return true;
-		}
-		return false;
+		return(unDealt.size()==0);
 	}
-
+	public int size()
+	{
+		return unDealt.size();
+	}
+	public Card deal()
+	{
+		if(unDealt.isEmpty())
+		{
+			return null;
+		}
+		Card temp = unDealt.get(0);
+		unDealt.remove(0);
+		Dealt.add(temp);
+		return temp;
+		
+	}
+	public void shuffle()
+	{
+		for(int x = Dealt.size()-1; x > 0; x--)
+		{
+			int r= (int)(Math.random()* (x+1));
+			Card temp = Dealt.get(x);
+			Card otherTemp = Dealt.get(r);
+			Dealt.remove(x);
+			Dealt.add(x, otherTemp);
+			Dealt.remove(r);
+			Dealt.add(r, temp);
+		}
+		for(int x = 0; x < Dealt.size()-1;x++)
+		{
+			Card temp = Dealt.get(0);
+			Dealt.remove(0);
+			unDealt.add(temp);
+		}
+	}
 }
+
+
