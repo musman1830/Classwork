@@ -1,0 +1,97 @@
+OBJECTID,Borough,Type,Provider,Name,Location,Latitude,Longitude,X,Y,Location_T,Remarks,City,SSID,SourceID,Activated,BoroCode,BoroName,NTACode,NTAName,CounDist,Postcode,BoroCD,CT2010,BCTCB2010,BIN,BBL,DOITT_ID,"Location (Lat, Long)"
+337,BK,Free,BPL,Brighton Beach - Brooklyn Public Library,16 BRIGHTON 1 ROAD,40.57610775,-73.96677488,"993,479.81","149,169.78",Library,,Brooklyn,BPLUNWIRED,,,3,Brooklyn,BK19,Brighton Beach,48,"11,235",313,"36,001","3,036,001","3,245,028","3,086,800,032",418,"Brooklyn
+(40.57610774700, -73.96677487620)"
+427,BK,Free,BPL,Coney Island - Brooklyn Public Library,1901 MERMAID AVENUE,40.57663778,-73.98606199,"988,121.89","149,361.44",Library,,Brooklyn,BPLUNWIRED,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,326,"3,032,600","3,189,001","3,070,190,043",517,"Brooklyn
+(40.57663777610, -73.98606199260)"
+733,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL  1/P/W/O GIRARD ST,40.57776,-73.94556,"999,372.85","149,774.69",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,230,"Brooklyn
+(40.57776000000, -73.94556000000)"
+734,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,C/O ORIENTAL BL  /IRWIN ST,40.57798,-73.94355,"999,931.15","149,855.19",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,231,"Brooklyn
+(40.57798000000, -73.94355000000)"
+735,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ROOF OF BEACH HOUSE EAST SIDE,40.57696,-73.94359,"999,920.28","149,483.57",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600","3,347,138","3,087,600,485",232,"Brooklyn
+(40.57696000000, -73.94359000000)"
+736,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ROOF OF BEACH HOUSE WEST SIDE,40.57687,-73.94459,"999,642.51","149,450.61",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600","3,347,138","3,087,600,485",233,"Brooklyn
+(40.57687000000, -73.94459000000)"
+737,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL  1/P/W/O KENSINGTON ST,40.57817,-73.94182,"1,000,411.68","149,924.73",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,234,"Brooklyn
+(40.57817000000, -73.94182000000)"
+738,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL  1/P/W/O LANGHAMST,40.57829,-73.94091,"1,000,664.43","149,968.62",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,235,"Brooklyn
+(40.57829000000, -73.94091000000)"
+739,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL  1/P/W/O NORFOLK ST,40.57843,-73.93907,"1,001,175.53","150,019.97",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600",0,0,236,"Brooklyn
+(40.57843000000, -73.93907000000)"
+740,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL 1/P/W/O MCKENZIE ST,40.57838,-73.93992,"1,000,939.42","150,001.59",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,237,"Brooklyn
+(40.57838000000, -73.93992000000)"
+741,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL  1/P/W/O JAFFRAY AV,40.57811,-73.94273,"1,000,158.91","149,902.70",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,238,"Brooklyn
+(40.57811000000, -73.94273000000)"
+742,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL 1/P/W/O HASTINGS ST,40.57787,-73.9446,"999,639.50","149,814.93",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,620,"3,062,000",0,0,239,"Brooklyn
+(40.57787000000, -73.94460000000)"
+743,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ORIENTAL BL 1/P/E/O OCEAN AV,40.57622,-73.94552,"999,384.31","149,213.63",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600",0,"3,087,600,485",240,"Brooklyn
+(40.57622000000, -73.94552000000)"
+744,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,OCEAN AV 4/P/S/O ORIENTAL BL,40.5761,-73.94698,"998,978.75","149,169.67",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600",0,0,241,"Brooklyn
+(40.57610000000, -73.94698000000)"
+745,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ROOF OF BEACH HOUSE EAST SIDE,40.57696,-73.94359,"999,920.28","149,483.57",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600","3,347,138","3,087,600,485",242,"Brooklyn
+(40.57696000000, -73.94359000000)"
+746,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ROOF OF BEACH HOUSE EAST SIDE,40.57696,-73.94359,"999,920.28","149,483.57",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600","3,347,138","3,087,600,485",243,"Brooklyn
+(40.57696000000, -73.94359000000)"
+747,BK,Limited Free,ALTICEUSA,Manhattan Beach Park,ROOF OF BEACH HOUSE WEST SIDE,40.57687,-73.94459,"999,642.51","149,450.61",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK17,Sheepshead Bay-Gerritsen Beach-Manhattan Beach,48,"11,235",315,616,"3,061,600","3,347,138","3,087,600,485",244,"Brooklyn
+(40.57687000000, -73.94459000000)"
+960,BK,Limited Free,ALTICEUSA,Steeplechase Park,W 17TH ST 1 P/N/O SURF AV,40.576111,-73.984734,"988,490.84","149,169.58",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,326,"3,032,600",0,0,1387,"Brooklyn
+(40.57611100000, -73.98473400000)"
+961,BK,Limited Free,ALTICEUSA,Steeplechase Park,W 16TH ST 1 P/N/O SURF AV,40.57585,-73.9835,"988,833.65","149,074.56",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,348,"3,034,800",0,0,1388,"Brooklyn
+(40.57585000000, -73.98350000000)"
+962,BK,Limited Free,ALTICEUSA,Steeplechase Park,W 19TH ST 1 P/N/O SURF AV,40.57564,-73.98567,"988,230.85","148,997.94",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,326,"3,032,600",0,0,1389,"Brooklyn
+(40.57564000000, -73.98567000000)"
+1378,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 15TH ST -5/P/S/O SURF AV,40.573739,-73.981894,"989,279.95","148,305.56",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1238,"Brooklyn
+(40.57373900000, -73.98189400000)"
+1379,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 15TH ST -8/P/S/O SURF AV,40.573218,-73.981827,"989,298.61","148,115.75",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1239,"Brooklyn
+(40.57321800000, -73.98182700000)"
+1380,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 15TH ST -7/P/S/O SURF AV,40.573218,-73.981826,"989,298.88","148,115.75",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1240,"Brooklyn
+(40.57321800000, -73.98182600000)"
+1381,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 15TH ST -3/P/S/O SURF AV,40.574278,-73.981996,"989,251.58","148,501.92",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1241,"Brooklyn
+(40.57427800000, -73.98199600000)"
+1382,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 10TH ST -2/P/S/O SURF AV,40.574582,-73.977901,"990,389.16","148,612.94",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1242,"Brooklyn
+(40.57458200000, -73.97790100000)"
+1383,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 10TH ST -1/P/S/O SURF AV,40.574915,-73.977867,"990,398.57","148,734.26",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1243,"Brooklyn
+(40.57491500000, -73.97786700000)"
+1384,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,W 10TH ST -4/P/S/O SURF AV,40.574062,-73.977982,"990,366.70","148,423.48",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1244,"Brooklyn
+(40.57406200000, -73.97798200000)"
+1385,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF AQUARIUM,40.573491,-73.977863,"990,399.81","148,215.46",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1245,"Brooklyn
+(40.57349100000, -73.97786300000)"
+1386,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF AQUARIUM,40.573527,-73.977563,"990,483.15","148,228.60",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,159","3,086,970,008",1246,"Brooklyn
+(40.57352700000, -73.97756300000)"
+1387,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF AQUARIUM,40.573551,-73.977366,"990,537.88","148,237.36",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,159","3,086,970,008",1247,"Brooklyn
+(40.57355100000, -73.97736600000)"
+1388,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF AQUARIUM,40.573551,-73.977366,"990,537.88","148,237.36",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,159","3,086,970,008",1248,"Brooklyn
+(40.57355100000, -73.97736600000)"
+1389,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF PAUL'S DAUGHTER,40.573439,-73.978297,"990,279.25","148,196.49",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200",0,0,1249,"Brooklyn
+(40.57343900000, -73.97829700000)"
+1390,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF PAUL'S DAUGHTER,40.573432,-73.97851,"990,220.08","148,193.92",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,412,853","3,086,960,212",1250,"Brooklyn
+(40.57343200000, -73.97851000000)"
+1391,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF CONEY ISLAND CONES,40.573381,-73.978872,"990,119.52","148,175.32",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,412,854","3,086,960,212",1251,"Brooklyn
+(40.57338100000, -73.97887200000)"
+1392,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF CONEY ISLAND CONES,40.573384,-73.978937,"990,101.46","148,176.41",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,412,854","3,086,960,212",1252,"Brooklyn
+(40.57338400000, -73.97893700000)"
+1393,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF CONEY ISLAND CONES,40.573384,-73.978937,"990,101.46","148,176.41",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,412,854","3,086,960,212",1253,"Brooklyn
+(40.57338400000, -73.97893700000)"
+1394,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF NATHANS-REAR,40.573428,-73.979853,"989,846.98","148,192.38",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,145","3,086,950,085",1254,"Brooklyn
+(40.57342800000, -73.97985300000)"
+1395,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF CONEY ISLAND BEACH SHOP-REAR,40.57341,-73.980344,"989,710.58","148,185.79",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,146","3,086,950,085",1255,"Brooklyn
+(40.57341000000, -73.98034400000)"
+1396,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,CROOF OF  NATHANS-FRONT,40.573276,-73.979855,"989,846.44","148,137.00",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,145","3,086,950,085",1256,"Brooklyn
+(40.57327600000, -73.97985500000)"
+1397,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF GIFT SHOP,40.573266,-73.980012,"989,802.82","148,133.35",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,145","3,086,950,085",1257,"Brooklyn
+(40.57326600000, -73.98001200000)"
+1398,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF RUBYS,40.573253,-73.980143,"989,766.43","148,128.60",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,146","3,086,950,085",1258,"Brooklyn
+(40.57325300000, -73.98014300000)"
+1399,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF CONEY ISLAND BEACH SHOP-REAR,40.573227,-73.980356,"989,707.26","148,119.11",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,245,146","3,086,950,085",1259,"Brooklyn
+(40.57322700000, -73.98035600000)"
+1400,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-RIGHT SIDE MIDDLE,40.572784,-73.985629,"988,242.41","147,957.43",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1260,"Brooklyn
+(40.57278400000, -73.98562900000)"
+1401,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-RIGHT SIDE FRONT,40.572675,-73.985618,"988,245.47","147,917.72",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1261,"Brooklyn
+(40.57267500000, -73.98561800000)"
+1402,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-RIGHT SIDE FRONT,40.572675,-73.985618,"988,245.47","147,917.72",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1262,"Brooklyn
+(40.57267500000, -73.98561800000)"
+1403,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-FRONT,40.572669,-73.985747,"988,209.63","147,915.53",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1263,"Brooklyn
+(40.57266900000, -73.98574700000)"
+1404,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-FRONT,40.572669,-73.985747,"988,209.63","147,915.53",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1264,"Brooklyn
+(40.57266900000, -73.98574700000)"
+1405,BK,Limited Free,ALTICEUSA,Coney Island Beach & Boardwalk,ROOF OF ABE STARK ICE RINK-LEFT SIDE FRONT,40.572664,-73.986039,"988,128.51","147,913.70",Outdoor,3 free 10 min sessions,Brooklyn,GuestWiFi,,,3,Brooklyn,BK21,Seagate-Coney Island,47,"11,224",313,352,"3,035,200","3,189,656","3,070,730,101",1265,"Brooklyn
+(40.57266400000, -73.98603900000)"

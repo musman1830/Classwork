@@ -1,6 +1,6 @@
 package Lab4_2;
-
-public class getColumnHeaders {
+ArrayList<String> CSVData;
+public class List<String> getColumnHeaders()
 
 	
 
