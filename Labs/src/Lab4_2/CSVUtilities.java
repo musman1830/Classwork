@@ -1,95 +1,105 @@
 package Lab4_2;
-
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-ArrayList<String> CSVData;
-public class CSVUtilities {
 
+public class CSVUtilities 
+{
+	ArrayList<String> CSVData;
+	int numColumn;
+	public CSVUtilities(File csv) throws IOException
+	{
+		boolean toggle = true;
+		ArrayList<String> no = new ArrayList<String>();
+		Path pathToFile = Paths.get(csv.getAbsolutePath());
+		BufferedReader buff = Files.newBufferedReader(pathToFile);
+		String line = buff.readLine();
+		while (line != null) { 
+			line = buff.readLine();
+			String[] attributes = null;
+			if (line != null) {
+				attributes = line.split(",");
+				if(toggle)
+				{
+					toggle = ! toggle;
+					this.numColumn = attributes.length;
+				}
+			} 
+			if (attributes != null) {
+				for (String x : attributes) {
+					no.add(x);
+				} 
+			}
+		}
+		this.CSVData = no;
+	}
 	
-
-		private static void displayContent(List<String> content) {
-
-		 //print the content:
-
-		 for(String item : content){
-
-		 System.out.println(item);
-
-		 }
-
-		 }
-
-
-
-		 private static List<String> testFileLoading() {
-
-		 Scanner in = new Scanner(System.in);
-
-		 String fileName = "";
-
-		 List<String> content = new ArrayList<String>();
-
-		 //use this boolean to control the while loop. The user should have multiple chances to enter a correct filename
-
-		 boolean opened = false;
-
-		 while(!opened){
-
-		 try {
-
-		 System.out.println("Enter a file to open");
-
-		 fileName = in.nextLine();
-
-		 FileReader fileReader = new FileReader(new File(fileName));
-
-		 String line = "";
-
-		 //a BufferedReader enables us to read teh file one line at a time
-
-		 BufferedReader br = new BufferedReader(fileReader);
-
-		 while ((line = br.readLine()) != null) {
-
-
-
-		 content.add(line);
-
-		 }
-
-		 br.close();
-
-		 opened = true;
-
-		 }catch (IOException e) {
-
-		 System.out.println("The file name you specified does not exist.");
-
-		 }
-
-		 }
-
-		 
-
-
-
-		 //close the Scanner
-
-		 in.close();
-
-		 return content;
-
-		 }
-
-
-
-
-
+	public List<String> getColumnHeaders()
+	{
+		ArrayList<String> no = new ArrayList<String>();
+		for(int i = 0; i < numColumn; i++)
+		{
+			no.add(CSVData.get(i));
+		}
+		return no;
+	}
+	
+	public List<String> getColumnData(int column)
+	{
+		ArrayList<String> no = new ArrayList<String>();
+		for(int i = column; i < this.CSVData.size(); i = i + numColumn)
+		{	String x = CSVData.get(i);
+			if(!(x.equals("")))
+			{
+				no.add(CSVData.get(i));
+			}
+			else
+			{
+				no.add("NULL");
+			}
+		}
+		return no;
+	}
+	
+	public List<Integer> getDataInt(int column)
+	{
+		ArrayList<Integer> no = new ArrayList<Integer>();
+		for(int i = column; i < this.CSVData.size(); i = i + numColumn)
+		{
+			String x =(CSVData.get(i));
+			if(!(x.equals("")))
+			{
+				no.add(Integer.parseInt(x));
+			}
+			else
+			{
+				no.add(null);
+			}
+		}
+		return no;
+	}
+	
+	public List<Double> getDataDouble(int column)
+	{
+		ArrayList<Double> no = new ArrayList<Double>();
+		for(int i = column; i < this.CSVData.size(); i = i + numColumn)
+		{
+			String x =(CSVData.get(i));
+			if(!(x.equals("")))
+			{
+				no.add(Double.parseDouble(x));
+			}
+			else
+			{
+				no.add(null);
+			}
+		}
+		return no;
 	}
 
-
+}
